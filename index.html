@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Book an Appointment</title>
+    <title>Year 8 Maths</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Book an Appointment</h1>
+      <h1>Year 8 Maths</h1>
     </header>
     <main>
-      <form id="booking-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" required>
-        <label for="date">Date:</label>
-        <input type="date" id="date" required>
-        <label for="time">Time:</label>
-        <input type="time" id="time" required>
-        <button type="submit">Book Appointment</button>
-      </form>
+      <div id="topics">
+        <h2>Topics</h2>
+        <ul>
+          <li><a href="#algebra">Algebra</a></li>
+          <li><a href="#geometry">Geometry</a></li>
+          <li><a href="#number">Number</a></li>
+          <li><a href="#trigonometry">Trigonometry</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <h2 id="current-topic">Select a topic to get started</h2>
+        <div id="lesson"></div>
+        <div id="quiz"></div>
+      </div>
     </main>
-    <script src="script.js"></script>
   </body>
+  <script src="script.js"></script>
 </html>
