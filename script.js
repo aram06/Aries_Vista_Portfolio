@@ -46,6 +46,22 @@ const topics = {
       { question: "What is 1/2 as a decimal?", answer: "0.5" },
       { question: "What is the next prime number after 7?", answer: "11" }
     ]
+  },
+  trigonometry: {
+    title: "Trigonometry",
+    lesson: `
+      <p>Trigonometry is the study of the relationships between the sides and angles of triangles.</p>
+      <p>Here are some key concepts:</p>
+      <ul>
+        <li><b>Sine (sin):</b> The ratio of the length of the side opposite an angle to the length of the hypotenuse.</li>
+        <li><b>Cosine (cos):</b> The ratio of the length of the adjacent side to the length of the hypotenuse.</li>
+        <li><b>Tangent (tan):</b> The ratio of the length of the opposite side to the length of the adjacent side.</li>
+      </ul>
+    `,
+    quiz: [
+      { question: "In a right-angled triangle, if the side opposite angle A is 3 and the hypotenuse is 5, what is sin(A)?", answer: "3/5" },
+      { question: "What is the value of cos(60 degrees)?", answer: "0.5" }
+    ]
   }
 };
 
