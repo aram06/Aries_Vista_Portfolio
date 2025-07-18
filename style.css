@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+}
+
+#topics {
+  width: 200px;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+#content {
+  padding: 1rem;
+}
+
+#lesson {
+  margin-bottom: 1rem;
+}
+
+#quiz button {
+  margin-top: 1rem;
+}
