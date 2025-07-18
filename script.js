@@ -65,18 +65,16 @@ const topics = {
   }
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  const topicLinks = document.querySelectorAll("#topics a");
-  const currentTopic = document.getElementById("current-topic");
-  const lessonDiv = document.getElementById("lesson");
-  const quizDiv = document.getElementById("quiz");
+const topicLinks = document.querySelectorAll("#topics a");
+const currentTopic = document.getElementById("current-topic");
+const lessonDiv = document.getElementById("lesson");
+const quizDiv = document.getElementById("quiz");
 
-  topicLinks.forEach(link => {
-    link.addEventListener("click", e => {
-      e.preventDefault();
-      const topic = e.target.hash.substring(1);
-      loadTopic(topic);
-    });
+topicLinks.forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    const topic = e.target.hash.substring(1);
+    loadTopic(topic);
   });
 });
 
