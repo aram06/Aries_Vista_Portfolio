@@ -80,7 +80,7 @@ topicLinks.forEach(link => {
 
 function loadTopic(topic) {
   currentTopic.textContent = topics[topic].title;
-  lessonDiv.innerHTML = `<p>${topics[topic].lesson}</p>`;
+  lessonDiv.innerHTML = topics[topic].lesson;
   loadQuiz(topic);
 }
 
